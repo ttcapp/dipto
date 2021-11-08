@@ -1,5 +1,6 @@
 import 'package:dipto/demo_page.dart';
 import 'package:dipto/list_page.dart';
+import 'package:dipto/log_in.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:slide_drawer/slide_drawer.dart';
@@ -68,7 +69,7 @@ class _HomePageState extends State<HomePage> {
             ElevatedButton(
                 onPressed: (){
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context)=>ListPage()));
+                      MaterialPageRoute(builder: (context)=>LogIn()));
                 },
                 child: Text("Go To Sing In")),
             Container(

@@ -9,10 +9,10 @@ class ListPage extends StatefulWidget {
 }
 
 List<String> stdList=[
-  "AlAmin"
-  "Nadia"
-  "Dipto"
-  "Cat"
+  "AlAmin",
+  "Nadia",
+  "Dipto",
+  "Cat",
 ];
 
 class _ListPageState extends State<ListPage> {
